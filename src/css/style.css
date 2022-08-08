@@ -1,0 +1,88 @@
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.container-pai {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../img/bg-repeat.jpg) repeat;
+    background-size: contain;
+    width: 100vw;
+    height: 100vh;
+    gap: 60px;
+    padding: 50px;
+}
+
+.info {
+    width: 300px;
+}
+
+.titulo {
+    font-size: 2rem;
+    color: #fff;
+    line-height: 2.3rem;
+    font-weight: 900;
+    margin-bottom: 15px;
+    width: 290px;
+}
+
+.texto {
+    font-size: 1.5rem;
+    color: #fff;
+    line-height: 1.8rem;
+}
+
+.formulario {
+    width: 340px;
+    min-height: 378px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 15px;
+}
+
+.campo {
+    width: 100%;
+    height: 3.5rem;
+    padding: 10px;
+}
+
+.campo-texto {
+    height: 10rem;
+    resize: none;
+}
+
+.mensagem-campos-obrigatorios {
+    margin-left: -5px;
+    margin-top: -8px;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+}
+
+.btn {
+    background-color: #3CCC87;
+    height: 42px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.inicial {
+    border: 1px solid #000000;
+    border-radius: 5PX;
+}
+
+.erro {
+    border-color: #F52E2E;
+}
+
+.sucesso {
+    border-color: #00C22B;
+}
+
+.aviso {
+    color: #F52E2E;
+}
